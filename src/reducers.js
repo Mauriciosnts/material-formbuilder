@@ -1,3 +1,3 @@
 export default {
-    //example: require('.containers/...').default,
+    modal_reducer: require('./containers/dialogs/reducer').default,
 }
