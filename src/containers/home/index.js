@@ -30,7 +30,7 @@ const copy = (source, destination, droppableSource, droppableDestination) => {
 	const item = sourceClone[droppableSource.index];
 
 	destClone.splice(droppableDestination.index, 0, { ...item, id: uuid() });
-	callModal();
+	//callModal();
 	return destClone;
 };
 
