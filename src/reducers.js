@@ -1,3 +1,3 @@
 export default {
-    // modal_reducer: require('./containers/dialogs/reducer').default,
+    form_builder: require('./containers/home/controllers/redux').default,
 }
