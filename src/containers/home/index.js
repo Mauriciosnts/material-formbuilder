@@ -93,9 +93,7 @@ class FormBuilder extends Component {
 	};
 
 	constructor(props) {
-		super(props);
-
-		this.callModal = this.callModal.bind(this);
+		super(props);		
 	}
 
 	componentDidMount() {}
